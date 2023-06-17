@@ -7,6 +7,10 @@ Passionate about Semiconductor design and verification with practical expertise 
 
 This repository contains sample snippets of code that illustrate UVM concepts
 
+I have learned UVM Fundamentals from Kumar Khandagle (udemy) 
+
+Contacts: ::Linkdin:https://www.linkedin.com/in/sathvik-ss/ ::Email:ssathvik1998@gamil.com ::twitter:https://twitter.com/sathish_sathvik
+
 Other Repository :
 SystemVerilog: https://github.com/sathviks/SytemVerilog
 RTL design:https://github.com/sathviks/Hardware_design
