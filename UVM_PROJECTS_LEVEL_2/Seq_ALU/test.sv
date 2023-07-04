@@ -9,7 +9,7 @@ interface alu_interface(input logic clock);
   logic reset;
   logic [7:0] a, b;
   logic [3:0] op_code;
-  logic [8:0] result;
+  logic [15:0] result;
 endinterface: alu_interface
 
 
@@ -23,7 +23,7 @@ class alu_sequence_item extends uvm_sequence_item;
   rand logic [7:0] a, b;
   rand logic [3:0] op_code;
   
-  logic [8:0] result; //output
+  logic [15:0] result; //output
 
 
   //--------------------------------------------------------

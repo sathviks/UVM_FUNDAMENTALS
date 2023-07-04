@@ -5,7 +5,7 @@ module alu(
            input clock,reset,
            input [7:0] a,b,  // ALU 8-bit Inputs                 
            input [3:0] ALU_Sel,// ALU Selection
-           output reg [8:0] ALU_Out // ALU 9-bit Output with carry
+           output reg [15:0] ALU_Out // ALU 15-bit Output with carry
     );
   reg [8:0] ALU_Result;
   
